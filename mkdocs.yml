@@ -1,0 +1,93 @@
+site_name: Ashlin James Poruthoor
+site_url: https://poruthoor.github.io/
+theme:
+  name: material
+  font:
+    text: Montserrat
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/scroll
+  favicon: assets/favicon/favicon.ico
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-3
+        name: Switch to system preference
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  analytics:
+    provider: google
+    property: G-0P3HWGZ9ER
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+
+  consent:
+    title: Cookie consent
+    description: >-
+      I'm using cookies to recognize your repeated visits and preferences. Also,
+      to measure the effectiveness of my journaling and whether users
+      find what they're searching for. With your consent, you're helping me to
+      make my journaling better.
+    actions:
+      - accept
+      - reject
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
+
+copyright: >
+  Copyright &copy; 2024 - 2026 Ashlin James Poruthoor –
+  <a href="#__consent">Change cookie settings</a>
+
+plugins:
+  - privacy
+  - search
+  - blog
