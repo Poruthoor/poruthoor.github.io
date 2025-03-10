@@ -23,11 +23,17 @@ This write-up is about my experience as an ADF Winter Mountaineering School stud
 
 The day started with the intense gear check was what saved most of us for the rest of the school. Some of us realized that the microspikes that we bought for crampons were not "the crampons" needed for hard ice navigation. The two-hour break between the gear check and training gave us ample time to go for a quick shopping to purchase the perfect crampons from Lake Placid. While shopping for an ear muff, I found a nice puffy jacket that was on sale in EMS which was 60% off. I wish I did more shopping here in the valley than online. The service personnel exactly know the terrain and weather of the region and will give really useful tips. Plus, all of them were extremely nice to us and did not take advantage of our urgency.
 
-If you want to read more about Self-Arrest principles, someone has done an amazing job [somewhere else](https://americanalpineclub.org/news/2023/6/28/snow-climbing).
+If you want to read more about Self-Arrest principles, [American Alpine Club has an amazing article here](https://americanalpineclub.org/news/2023/6/28/snow-climbing).
 
+<p align="center">
+ <image src="../../../media/WMS/self-arrest.gif" height=400/ width=400/>
+ </image></p>
+<p align="center">
+ <em>Rolling down the hills to self-arrest (Photo courtesy: Gary)</em></image>
+</p>
 
+After the tiring but fun hours of rolling down the hills, we had an amazing dinner prepared by the lovely ADK Loj crew. Then there were two presentations - Winter Mountaineering 101 and Meal Prep.
 
-After the tiring but fun hours of rolling down the hills, we had an amazing dinner prepared by the lovely ADK Loj crew. Then there were two presentations - Winter Mountaineering 101 and Meal Prep. I will write here things that stick to me most - this is in no way a comprehensive or exhaustive list of things you know before starting climbing one fine winter morning - Please do your research.
 <p align="center">
  <image src="../../../media/WMS/Night-presentation.jpg" height=400/ width=400/>
  </image></p>
@@ -35,6 +41,7 @@ After the tiring but fun hours of rolling down the hills, we had an amazing dinn
  <em>Night presentations in the Education Yurt (Photo courtesy: Gary)</em></image>
 </p>
 
+I will write here things that stick to me most - this is in no way a comprehensive or exhaustive list of things you should know before starting climbing one fine winter morning - Please do your research.
 
 1. Pick of the ice axe always point towards your pinky to self-arrest.
 2. Temperature control: Always make sure we are dry and comfy. Your temperature should dictate your speed - Too sweaty? Loosen up layers and go slow. Too cold? Layer up and go fast. The idea is to have an equilibrium and not to go to extremes.
@@ -43,7 +50,7 @@ After the tiring but fun hours of rolling down the hills, we had an amazing dinn
 5. After every hike, ask yourself - What could have been improved? Improve it. This is supposed to be fun and not torture.
 6. Look out for lemons - The rule of thumb is having 3 lemons is a sign for the whole party to turn around and come back another time.
 
-### Day 2 (Shake-down day - To Crows (Big Crow and Little Crow))
+### Day 2 (Shake-down day - To Crows (Big Crow and Little Crow) + More useful talks)
 
 Backward Trip planning: (Assuming you have already done research about the trail that you are aiming for - Including if it is open, weather (not at the trailhead but at the summit too), difficulty, trail conditions, etc)
 
@@ -68,8 +75,16 @@ The school was divided into different teams based on what they wanted to do that
 8. Buying the earmuffs was the best decision ever.
 9. Maybe a fannyback?
 10. Need to find a setup to get the sortie-pad in and out quickly during the role out.
+11. Invest in Avalanche Awareness Programs?
 
 Thankfully, the instructors were super nice and helped me to better pack my stuff for the next time.
 
+<p align="left">
+ <image src="../../../media/WMS/big-crow.jpg" height=240>
+ <image src="../../../media/WMS/Big-slide.jpg" height=240>
+ </image></p>
+<p align="center">
+ <em>Big Crow and Big Slide Teams (Photo courtesy: Gary)</em></image>
+</p>
 
 
