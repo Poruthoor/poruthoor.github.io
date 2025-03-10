@@ -23,7 +23,18 @@ This write-up is about my experience as an ADF Winter Mountaineering School stud
 
 The day started with the intense gear check was what saved most of us for the rest of the school. Some of us realized that the microspikes that we bought for crampons were not "the crampons" needed for hard ice navigation. The two-hour break between the gear check and training gave us ample time to go for a quick shopping to purchase the perfect crampons from Lake Placid. While shopping for an ear muff, I found a nice puffy jacket that was on sale in EMS which was 60% off. I wish I did more shopping here in the valley than online. The service personnel exactly know the terrain and weather of the region and will give really useful tips. Plus, all of them were extremely nice to us and did not take advantage of our urgency.
 
-If you want to read more about Self-Arrest principles, someone has done an amazing job [somewhere else](https://americanalpineclub.org/news/2023/6/28/snow-climbing). After the tiring but fun hours of rolling down the hills, we had an amazing dinner prepared by the lovely ADK Loj crew. Then there were two presentations - Winter Mountaineering 101 and Meal Prep. I will write here things that stick to me most - this is in no way a comprehensive or exhaustive list of things you know before starting climbing one fine winter morning - Please do your research.
+If you want to read more about Self-Arrest principles, someone has done an amazing job [somewhere else](https://americanalpineclub.org/news/2023/6/28/snow-climbing).
+
+
+
+After the tiring but fun hours of rolling down the hills, we had an amazing dinner prepared by the lovely ADK Loj crew. Then there were two presentations - Winter Mountaineering 101 and Meal Prep. I will write here things that stick to me most - this is in no way a comprehensive or exhaustive list of things you know before starting climbing one fine winter morning - Please do your research.
+<p align="center">
+ <image src="../../../media/WMS/Night-presentation.jpg" height=400/ width=400/>
+ </image></p>
+<p align="center">
+ <em>Night presentations in the Education Yurt (Photo courtesy: Gary)</em></image>
+</p>
+
 
 1. Pick of the ice axe always point towards your pinky to self-arrest.
 2. Temperature control: Always make sure we are dry and comfy. Your temperature should dictate your speed - Too sweaty? Loosen up layers and go slow. Too cold? Layer up and go fast. The idea is to have an equilibrium and not to go to extremes.
@@ -46,7 +57,7 @@ Backward Trip planning: (Assuming you have already done research about the trail
 
 The school was divided into different teams based on what they wanted to do that day. There were options for hard/medium/easy hiking, bushwacking, etc. I chose the one for Algonquin since it required going above the tree line and it was supposed to be less than -$\text{20}^\circ\text{F}$. For me, the hike up to the treeline was pretty smooth sailing but above the treeline was a shitshow for me as I wasn't prepared.
 
-Note to myself (Things I would have done differently):
+#### Note to myself (Things I would have done differently)
 1. Instead of the cheap ski goggles, I think Wolf-hood would be the best choice (Need to look into Army supplies).
 2. Having a proper Merino wool balaclava is better than the cheap Amazon Balaklava that I bought.
 3. All the elastic things including - bag straps that I used to mount the snowshoes/hiking pole, the ski-goggles strap, and the Balaklava - lost their elastic property at low temperatures. I should have gone with clips, wolf-hood, and the wool type instead. My goggles dropped and it fogged up, then my attention was not to summit but to make sure I didn't get frost-bite.
