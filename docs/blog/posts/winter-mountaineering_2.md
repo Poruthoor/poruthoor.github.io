@@ -25,12 +25,10 @@ The day started with the intense gear check was what saved most of us for the re
 
 If you want to read more about Self-Arrest principles, [American Alpine Club has an amazing article here](https://americanalpineclub.org/news/2023/6/28/snow-climbing).
 
-<p align="center">
- <image src="../../../media/WMS/self-arrest.gif" height=400/ width=400/>
- </image></p>
-<p align="center">
- <em>Rolling down the hills to self-arrest (Photo courtesy: Gary)</em></image>
-</p>
+<figure markdown="span">
+  ![Self-arrest]("../../../media/WMS/self-arrest.gif"){ width="400" }
+  <figcaption>Rolling down the hills to self-arrest (Photo courtesy: Gary)</figcaption>
+</figure>
 
 After the tiring but fun hours of rolling down the hills, we had an amazing dinner prepared by the lovely ADK Loj crew. Then there were two presentations - Winter Mountaineering 101 and Meal Prep.
 
