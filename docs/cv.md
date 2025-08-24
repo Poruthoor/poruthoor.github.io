@@ -31,15 +31,13 @@ University of Delhi, 2013 - 2016
 
 :calendar: July 2024 - Present
 
--   Developing better machine learning models to predict membrane
-    permeability using feature engineering
+-   Developed ensemble learning and deep learning models to predict small molecule membrane permeability using physics-based SILCS continuum models with fragment-based 3D mapping of membranes of varying complexity. Feature engineered multiple novel molecular descriptors and assessed their effects on the explainability of models<sup>1</sup>
 
--   High Throughput Virtual Screening of potential SCP2 inhibitors:
-    Using Site Identification by Ligand Competitive Saturation (SILCS)
-    platform to screen for potential candidates and their effect on
-    targets and off-targets.
--   In-silico designing of photoaffinity probes
-    for target characterization and identification
+-   Lead optimization and High Throughput Virtual Screening of SCP2 inhibitors: Using Site Identification by Ligand Competitive Saturation (SILCS) platform, I led the fragment-based computational campaign to expand chemical modifications, corresponding SAR analysis on targets and off-targets with experimental collaboration<sup>2</sup>
+
+-   In-silico designing of photoaffinity probes for target characterization and identification for the SCP2 campaign
+
+-    Developing an _in silico_ renal proximal tubule model for ADMET prediction with SILCS whole cell simulation
 
 ### **Graduate Research Student**
 
@@ -49,20 +47,14 @@ University of Delhi, 2013 - 2016
 
 -   **Developed a computational method** to estimate the free energy
     landscape of phase separation in the lipid bilayers from molecular
-    dynamics (MD) simulations using **enhanced sampling** protocols
+    dynamics (MD) simulations using **enhanced sampling** protocols<sup>3</sup>
     :small_orange_diamond: **Analyzed > 100 TB simulation data** :small_orange_diamond:
     Unsupervised Learning :small_orange_diamond: Coarse Grained MD :small_orange_diamond:
     **[Weighted
     Ensemble](https://x.com/poruthoor/status/1631815905557479426?s=20)**
     :small_orange_diamond: GROMACS
 
--   Developed a benchmarking protocol to identify efficient collective
-    variables that simultaneously track phase separating bilayers while
-    driving the enhanced sampling, resulting in faster convergence of
-    free energy landscapes
-
--   Studied the MD finite-box size effects in constructing free energy
-    landscapes of phase separating lipid bilayers
+-   Studied the MD finite-box size effects in constructing free energy landscapes of phase separating lipid bilayers<sup>4</sup>
 
 -   Developed statistical mechanics-based analysis schemes to track and
     visualize ultrafast dynamics of Rhodopsin upon light activation to
@@ -79,10 +71,8 @@ University of Delhi, 2013 - 2016
 
 -   Studied the role of ionizable lipids in lipid nanoparticles
     **(LNPs)** and their preferential interactions with RNA with NAMD3
-    All-Atom Molecular Dynamics simulations in AWS.
-    Poster presented at Biophysical Society Meeting 2024,
-    Philadelphia, PA & GRC Biotherapeutics and Vaccines
-    Development Meeting 2024. :small_orange_diamond: RNA-bilayer Modeling :small_orange_diamond: Python
+    All-Atom Molecular Dynamics simulations in AWS<sup>5</sup>
+    :small_orange_diamond: RNA-bilayer Modeling :small_orange_diamond: Python
     suite for end-to-end large-scale data analysis
 
 -   Generalized and automated in-house protocol for customized in-silico
@@ -141,21 +131,8 @@ University of Delhi, 2013 - 2016
     cross-functional efforts
 
 ## Other Relevant Experience
-
--   **Moderna -- Carnegie Mellon University, Artificial Intelligence (AI) --
-Academy Certification (2022)** Internal training to educate and empower
-Moderna employees to integrate AI and ML solutions into their workflow
-
--   **Founding Member, [Learning Curve
-Initiative](https://learning-curve-initiative.github.io/about/):** A
-graduate and postdoc trainee-led group to normalize negative data among
-computational chemistry and biophysics community and share hidden best
-practices within diverse labs
-
--   **Founding President, [International Students and Scholars Association
-(ISSA)](https://ccc.rochester.edu/issa/home/), University of Rochester
-(2023 - 2024)** Represent the international grad student community in
-the School of Medicine and Dentistry
+-   **Software Contributions (2024 - Present)**
+[SILCS](https://silcsbio.com/) : Created protocols for handling complex user-input custom membranes for SILCS-Membrane tool that elimiated early runtime termination. Bug fixes, and beta-testing.
 
 -   **URBEST Trainee (2021 - 2024)** **U**niversity of **R**ochester
 initiative to **B**roaden **E**xperiences in **S**cientific **T**raining
@@ -186,17 +163,17 @@ version](https://github.com/Poruthoor/Phase_Separation_Article/tree/main/FLOPSS)
 
 ## Relevant Publications
 
-**Poruthoor, Ashlin** & Sharma, Akshara & Grossfield, Alan. (2023).
+1.  Elizabeth S. Liedhegner, Caitlin Bauer, Nathalia Rocha Lainetti, **Ashlin Poruthoor**, Alexander MacKerell, Christopher Cunningham, Cecilia Hillard. Sterol Carrier Protein 2 (SCP-2), trafficker of endocannabinoids, interacts with the phytocannabinoids, cannabidiol (CBD) and cannabigerol (CBG). GRC Cannabinoid Function in the CNS, New Hampshire, August 2025 [Poster]
+
+2.  **Ashlin Poruhtoor**, Alexander MacKerell Jr. Lessons learned from predicting drug permeability by bridging physics and machine learning using the SILCS methodology. ACS Fall Meeting 2025, Washington, D.C. [Poster]
+
+3.  **Ashlin Poruthoor**, Akshara Sharma, Alan Grossfield. (2023).
 Understanding the Free Energy Landscape of Phase Separation in Lipid
 Bilayers using Molecular Dynamics. Biophysical Journal. 122.
 10.1016/j.bpj.2023.09.012.
 
-**Poruthoor, Ashlin** & Stallone, Jack & Miaro, Megan & Sharma, Akshara
-& Grossfield, Alan. (2024). System size effects on the free energy
+4.  **Ashlin Poruthoor**, Jack Stallone, Megan Miaro, Akshara Sharma, Alan Grossfield. (2024). System size effects on the free energy
 landscapes from molecular dynamics of phase-separating bilayers. J.
 Chem. Phys. 161, 145101
 
-**Poruthoor, Ashlin** & Dehghanighahnaviyeh, Sepehr & Bali, Semiha &
-Isik, Mehtap & Sur, Sreyoshi. (2024). Interactions between ionizable
-amino lipids and a short RNA hairpin: Insights from molecular dynamics
-simulations for lipid nanoparticle optimization. (In preparation)
+5.  **Ashlin Poruthoor**, Sepehr Dehghanighahnaviyeh, Semiha Bali, Mehtap Isik, Sreyoshi Sur. (2024). Interactions between ionizable amino lipids and a short RNA hairpin: Insights from molecular dynamics simulations for lipid nanoparticle optimization. Biophysical Journal. 123. 97a. 10.1016/j.bpj.2023.11.699. [Poster]
