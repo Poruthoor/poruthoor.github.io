@@ -63,7 +63,7 @@ ___
   ![rhodopsin](./media/research/rhodopsin.gif)
 </figure>
 
-I teamed up with Leslie, a senior graduate student in Grossfield Lab, to develop analysis schemes to track and visualize ultrafast dynamics of Rhodopsin upon light activation to interpret the XFEL experiments.
+I teamed up with Leslie, a senior graduate student in Grossfield Lab, to develop analysis schemes to track and visualize ultrafast dynamics of Rhodopsin upon light activation to interpret the X-ray Free Electron Laser (XFEL) experiments.
 
 (2018-2019)
 
