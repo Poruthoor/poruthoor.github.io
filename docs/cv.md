@@ -56,7 +56,7 @@ University of Delhi, 2013 - 2016
 
 -   Studied the MD finite-box size effects in constructing free energy landscapes of phase separating lipid bilayers<sup>4</sup>
 
--   Developed statistical mechanics-based analysis schemes to track and
+-   Developed analysis schemes using statistical mechanics to track and
     visualize ultrafast dynamics of Rhodopsin upon light activation to
     interpret the XFEL experiments :small_orange_diamond: Analyzed > 10000 short
     All-Atom simulations :small_orange_diamond: NAMD :small_orange_diamond: OpenMM :small_orange_diamond:
