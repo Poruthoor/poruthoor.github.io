@@ -18,7 +18,7 @@ Penguin Books
 
 ______
 
-This book was chosen for our History book club's April reading. Most of my review includes my take and a few points discussed in our book club.A context added by one of the book club members was this is a distilled version of a much more elaborate and earlier work of the author  - $We\ Now\ Know:\ Rethinking\ Cold\ War\ History$. As I have finished the former, I'm very much tempted to give the latter a try.
+This book was chosen for our History book club's April reading. Most of my review includes my take and a few points discussed in our book club.A context added by one of the book club members was this is a distilled version of a much more elaborate and earlier work of the author  - <i>We Now Know: Rethinking Cold War History</i>. As I have finished the former, I'm very much tempted to give the latter a try.
 
 The book neatly covers the Cold War geo-political landscapes predominantly from a USA-centric view and sometimes from a USSR perspective. Given the large scope of this book elaborating on the NATO and WARSAW measures that happened during the Cold War, given the changing political climate in the USA and USSR at those times, it makes sense why other large players like the UK, France, and China got a little screen time. The Non-Aligned Movement folks do get guest appearances as well.
 

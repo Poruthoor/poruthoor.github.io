@@ -92,4 +92,5 @@ copyright: >
 plugins:
   - privacy
   - search
-  - blog
+  - blog:
+      pagination_per_page: 2
