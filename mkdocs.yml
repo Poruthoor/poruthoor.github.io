@@ -93,4 +93,8 @@ plugins:
   - privacy
   - search
   - blog:
-      pagination_per_page: 2
+      blog_dir: Blog
+      pagination_per_page: 5
+  - blog:
+      blog_dir: Misc
+      pagination_per_page: 5
