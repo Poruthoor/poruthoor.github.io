@@ -914,13 +914,13 @@
 <p>Because of some barrier 🚧, Mario may not reach state B. Making this a rare event in the simulation time scale.</p>
 <p>Sometimes, Mario is lucky and reaches state B just ONCE.</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/5.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/5.mp4" type="video/mp4">
 </video>
 
 <p>Now if you plot the probability distribution of Mario in Mario World, you get different results depending on where Mario started.</p>
 <p>And most of the time, this does not agree with our intuition/experimental data🧪because our Mario has yet to explore the entire Mario world.</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/6.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/6.mp4" type="video/mp4">
 </video>
 
 <p>Our barrier estimation is likely erroneous since Mario jumped over it just once after running  💻 for months</p>
@@ -932,7 +932,7 @@
 <p>First, we bin the Mario world🗑️🗑️🗑️🗑️. </p>
 <p>The idea is to let multiple Marios explore each bin systematically and efficiently.</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/8.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/8.mp4" type="video/mp4">
 </video>
 
 <p>But we have a few design choices to make🤔 </p>
@@ -940,21 +940,21 @@
 <p>If you are a broke undergrad student who can afford a laptop, let's say 2 for this explanation.</p>
 <p>But the strategy is scalable.</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/9.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/9.mp4" type="video/mp4">
 </video>
 
 <p>Now, we place a Mario in a bin with Probability = 1.</p>
 <p>Since we need two Marios per bin, we spawn another Mario and split the parent Mario's Probability to child Marios (0.5 each)</p>
 <p><b>This is the WE stage 🎲.</b></p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/10.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/10.mp4" type="video/mp4">
 </video>
 
 <p>Now we let the Marios run wild (<b>MD stage ⏱️</b>), and as a result, one Mario stays in the old bin, and the other finds a new bin. </p>
 <p>The Marios splits again whenever we have a new or underexplored bin (less than 2 Marios per bin)</p>
 <p><b>(WE stage🎲)</b></p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/11.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/11.mp4" type="video/mp4">
 </video>
 
 <p>Again, we let Mario run wild (<b>MD stage⏱️</b>)</p>
@@ -963,27 +963,27 @@
 <p>Thus we merge the Marios in the second bin. </p>
 <p>Meanwhile, we split the Marios in the first bin as it is underexplored. - <b>WE stage</b></p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/12.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/12.mp4" type="video/mp4">
 </video>
 
 <p>Again, we let them roam the World - MD stage.</p>
 <p>If we do the WE 🎲and MD⏱️stages alternatively, long enough, we can explore the whole Mario world efficiently!</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/13.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/13.mp4" type="video/mp4">
 </video>
 
 <p>To conclude, here comes a bit of jargon 🧐.</p>
 <p>We should have a progress coordinate that you must choose 🚨CAREFULLY🚨 which distinguishes states A and B.</p>
 <p>You try to spawn short MD trajectories (Marios, aka walkers) from all over the progress coord space (or from one side if you only have configs from one state).</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/14.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/14.mp4" type="video/mp4">
 </video>
 
 <p>You go through multiple iterations of WE 🎲 + MD⏱️ until you see convergence.</p>
 <p>From the converged distribution of walkers, you make a probability distribution, P(x), using the weights of the walkers.</p>
 <p>You get the free energy landscape from the P(x) using Stats 101.</p>
 <video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../media/wemd_intro/15.mp4" type="video/mp4">
+  <source src="../../../../../media/wemd_intro/15.mp4" type="video/mp4">
 </video>
 
 <hr />
