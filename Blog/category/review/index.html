@@ -8,31 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://poruthoor.github.io/blog/posts/wemd_intro/">
+        <link rel="canonical" href="https://poruthoor.github.io/Blog/category/review/">
       
       
-        <link rel="prev" href="../../">
+        <link rel="prev" href="../molecular-dynamics/">
       
       
-        <link rel="next" href="../../../Misc/">
-      
-      
-        
+        <link rel="next" href="../weighted-ensemble/">
       
       
       <link rel="icon" href="../../../assets/favicon/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
     
     
       
-        <title>Weighted Ensemble Approach - Ashlin James Poruthoor</title>
+        <title>Review - Ashlin James Poruthoor</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +43,7 @@
         
         
         
-        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.dfeb2869.css">
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.dfeb2869">
         <style>:root{--md-text-font:"Montserrat";--md-code-font:"Red Hat Mono"}</style>
       
     
@@ -65,6 +62,7 @@
     <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
   
 
+    
     
     
 <meta name="google-site-verification" content="ZC_m6qRunVxRNs4CglMlLT27zjT7MKFX5JaeNZMmQY8" />
@@ -89,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#weighted-ensemble-approach" class="md-skip">
+        <a href="#review" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +106,7 @@
     <a href="../../.." title="Ashlin James Poruthoor" class="md-header__button md-logo" aria-label="Ashlin James Poruthoor" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M0 112c0-41.5 31.6-75.6 72-79.6V32h280c53 0 96 43 96 96v176H272c-39.8 0-72 32.2-72 72v60c0 24.3-19.7 44-44 44s-44-19.7-44-44V208H48c-26.5 0-48-21.5-48-48zm236.8 368c7.1-13.1 11.2-28.1 11.2-44v-60c0-13.3 10.7-24 24-24h248c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80zM80 80c-17.7 0-32 14.3-32 32v48h64v-48c0-17.7-14.3-32-32-32"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 80v48c0 17.7 14.3 32 32 32h64V80c0-26.5-21.5-48-48-48S0 53.5 0 80m112-48c10 13.4 16 30 16 48v304c0 35.3 28.7 64 64 64s64-28.7 64-64v-5.3c0-32.4 26.3-58.7 58.7-58.7H480V128c0-53-43-96-96-96zm352 448c61.9 0 112-50.1 112-112 0-8.8-7.2-16-16-16H314.7c-14.7 0-26.7 11.9-26.7 26.7v5.3c0 53-43 96-96 96h272"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Weighted Ensemble Approach
+              Review
             
           </span>
         </div>
@@ -173,13 +171,11 @@
     
     
     
-      
-      
-        <label class="md-header__button md-icon" for="__search">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        </label>
-        <div class="md-search" data-md-component="search" role="dialog">
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -218,7 +214,6 @@
     </div>
   </div>
 </div>
-      
     
     
   </nav>
@@ -233,11 +228,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../.." class="md-tabs__link">
         
-  
   
     
   
@@ -252,11 +245,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../../Research/" class="md-tabs__link">
         
-  
   
     
   
@@ -271,11 +262,9 @@
   
   
   
-  
     <li class="md-tabs__item">
       <a href="../../../cv/" class="md-tabs__link">
         
-  
   
     
   
@@ -289,16 +278,14 @@
         
   
   
-  
     
   
   
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../Blog/" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
           
-  
   
     
   
@@ -314,13 +301,11 @@
   
   
   
-  
     
     
       <li class="md-tabs__item">
         <a href="../../../Misc/" class="md-tabs__link">
           
-  
   
     
   
@@ -363,7 +348,7 @@
     <a href="../../.." title="Ashlin James Poruthoor" class="md-nav__button md-logo" aria-label="Ashlin James Poruthoor" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M0 112c0-41.5 31.6-75.6 72-79.6V32h280c53 0 96 43 96 96v176H272c-39.8 0-72 32.2-72 72v60c0 24.3-19.7 44-44 44s-44-19.7-44-44V208H48c-26.5 0-48-21.5-48-48zm236.8 368c7.1-13.1 11.2-28.1 11.2-44v-60c0-13.3 10.7-24 24-24h248c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80zM80 80c-17.7 0-32 14.3-32 32v48h64v-48c0-17.7-14.3-32-32-32"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 80v48c0 17.7 14.3 32 32 32h64V80c0-26.5-21.5-48-48-48S0 53.5 0 80m112-48c10 13.4 16 30 16 48v304c0 35.3 28.7 64 64 64s64-28.7 64-64v-5.3c0-32.4 26.3-58.7 58.7-58.7H480V128c0-53-43-96-96-96zm352 448c61.9 0 112-50.1 112-112 0-8.8-7.2-16-16-16H314.7c-14.7 0-26.7 11.9-26.7 26.7v5.3c0 53-43 96-96 96h272"/></svg>
 
     </a>
     Ashlin James Poruthoor
@@ -381,16 +366,10 @@
       <a href="../../.." class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     About Me
-  
-
     
   </span>
-  
   
 
       </a>
@@ -408,16 +387,10 @@
       <a href="../../../Research/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Research
-  
-
     
   </span>
-  
   
 
       </a>
@@ -435,16 +408,10 @@
       <a href="../../../cv/" class="md-nav__link">
         
   
-  
   <span class="md-ellipsis">
-    
-  
     Resume
-  
-
     
   </span>
-  
   
 
       </a>
@@ -471,9 +438,6 @@
       
         
       
-        
-      
-    
     
     
       
@@ -494,20 +458,15 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
+          
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Blog/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
-  
   <span class="md-ellipsis">
-    
-  
     Blog
-  
-
     
   </span>
-  
   
 
             </a>
@@ -522,11 +481,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Blog
-  
-
+            Blog
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -538,23 +493,79 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+    
+    
+      
         
-  
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+            
   
   <span class="md-ellipsis">
-    
-  
-    Blog
-  
-
+    Archive
     
   </span>
   
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -573,7 +584,12 @@
       
         
       
-    
+        
+      
+        
+      
+        
+      
     
     
       
@@ -597,16 +613,10 @@
           <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
             
   
-  
   <span class="md-ellipsis">
-    
-  
-    Posts
-  
-
+    Categories
     
   </span>
-  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -615,11 +625,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            
-  
-    Posts
-  
-
+            Categories
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -627,8 +633,60 @@
                 
   
   
+  
     
   
+  
+    <li class="md-nav__item">
+      <a href="../enhanced-sampling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enhanced Sampling
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../molecular-dynamics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Molecular Dynamics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+      
+    
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -642,27 +700,13 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
-  
   <span class="md-ellipsis">
-    
-  
-    Weighted Ensemble Approach
-  
-
+    Review
     
   </span>
   
-  
 
       </a>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -674,24 +718,28 @@
   
   
   
-  
-    <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
     
   
-    Archive
   
-
+    <li class="md-nav__item">
+      <a href="../weighted-ensemble/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Weighted Ensemble
     
   </span>
   
-  
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -723,7 +771,6 @@
       
     
     
-    
       
       
         
@@ -740,20 +787,13 @@
         
   
   
-  
     <a href="../../../Misc/" class="md-nav__link">
       
   
-  
   <span class="md-ellipsis">
-    
-  
     Misc
-  
-
     
   </span>
-  
   
 
       
@@ -794,175 +834,68 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-
-<h1 id="weighted-ensemble-approach">Weighted Ensemble Approach</h1>
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="review">Review</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-03-03 00:00:00+00:00">March 3, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../weighted-ensemble/" class="md-meta__link">Weighted Ensemble</a>, 
+              <a href="../enhanced-sampling/" class="md-meta__link">Enhanced Sampling</a>, 
+              <a href="../molecular-dynamics/" class="md-meta__link">Molecular Dynamics</a>, 
+              <a href="./" class="md-meta__link">Review</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              4 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="weighted-ensemble-approach"><a class="toclink" href="../../2023/03/03/weighted-ensemble-approach/">Weighted Ensemble Approach</a></h2>
 <p>The weighted ensemble (WE) strategy, as an enhanced sampling technique, has been very close to my heart. Here is a brief fun explanation of WE.</p>
-<!-- more -->
 
-<p><img alt="1" src="../../../media/wemd_intro/1.gif" /></p>
-<p>Imagine the configurational space of a system you want to explore is like Mario world.</p>
-<p>A lot of cool features (configs), and ideally, you want to capture all of them to get a more complete statistical understanding.</p>
-<p><img alt="2" src="../../../media/wemd_intro/2.gif" /></p>
-<p>In most cases, you know about states A and B of the system and are interested in the transition between these states.</p>
-<p>Ex: You have a protein in open and closed conformations and want to know how it happens.</p>
-<p><img alt="3" src="../../../media/wemd_intro/3.gif" /></p>
-<p>If you contact a simulation person, they will suggest Molecular Dynamics (MD). </p>
-<p>You can consider the standard MD as a single-player Mario game🎮</p>
-<p><img alt="4" src="../../../media/wemd_intro/4.gif" /></p>
-<p>Here, the Mario, a single-long MD trajectory, starts from state A and explores the local configs.</p>
-<p>Because of some barrier 🚧, Mario may not reach state B. Making this a rare event in the simulation time scale.</p>
-<p>Sometimes, Mario is lucky and reaches state B just ONCE.</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/5.mp4" type="video/mp4">
-</video>
-
-<p>Now if you plot the probability distribution of Mario in Mario World, you get different results depending on where Mario started.</p>
-<p>And most of the time, this does not agree with our intuition/experimental data🧪because our Mario has yet to explore the entire Mario world.</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/6.mp4" type="video/mp4">
-</video>
-
-<p>Our barrier estimation is likely erroneous since Mario jumped over it just once after running  💻 for months</p>
-<p>(We need to roll the die 🎲multiple times to get an average value - not once)</p>
-<p>So, we need a method that facilitates multiple jumps back and forth between states</p>
-<p>Now, enter the Weighted Ensemble!</p>
-<p>A multiplayer game🎮🎮🎮🎮!</p>
-<p><img alt="7" src="../../../media/wemd_intro/7.gif" /></p>
-<p>First, we bin the Mario world🗑️🗑️🗑️🗑️. </p>
-<p>The idea is to let multiple Marios explore each bin systematically and efficiently.</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/8.mp4" type="video/mp4">
-</video>
-
-<p>But we have a few design choices to make🤔 </p>
-<p>How many Marios can I afford to explore a bin?</p>
-<p>If you are a broke undergrad student who can afford a laptop, let's say 2 for this explanation.</p>
-<p>But the strategy is scalable.</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/9.mp4" type="video/mp4">
-</video>
-
-<p>Now, we place a Mario in a bin with Probability = 1.</p>
-<p>Since we need two Marios per bin, we spawn another Mario and split the parent Mario's Probability to child Marios (0.5 each)</p>
-<p><b>This is the WE stage 🎲.</b></p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/10.mp4" type="video/mp4">
-</video>
-
-<p>Now we let the Marios run wild (<b>MD stage ⏱️</b>), and as a result, one Mario stays in the old bin, and the other finds a new bin. </p>
-<p>The Marios splits again whenever we have a new or underexplored bin (less than 2 Marios per bin)</p>
-<p><b>(WE stage🎲)</b></p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/11.mp4" type="video/mp4">
-</video>
-
-<p>Again, we let Mario run wild (<b>MD stage⏱️</b>)</p>
-<p>Oops! Now there are three Marios in the second bin - over-exploration! </p>
-<p>Our computers are burning unnecessarily🔥💻🔥!</p>
-<p>Thus we merge the Marios in the second bin. </p>
-<p>Meanwhile, we split the Marios in the first bin as it is underexplored. - <b>WE stage</b></p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/12.mp4" type="video/mp4">
-</video>
-
-<p>Again, we let them roam the World - MD stage.</p>
-<p>If we do the WE 🎲and MD⏱️stages alternatively, long enough, we can explore the whole Mario world efficiently!</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/13.mp4" type="video/mp4">
-</video>
-
-<p>To conclude, here comes a bit of jargon 🧐.</p>
-<p>We should have a progress coordinate that you must choose 🚨CAREFULLY🚨 which distinguishes states A and B.</p>
-<p>You try to spawn short MD trajectories (Marios, aka walkers) from all over the progress coord space (or from one side if you only have configs from one state).</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/14.mp4" type="video/mp4">
-</video>
-
-<p>You go through multiple iterations of WE 🎲 + MD⏱️ until you see convergence.</p>
-<p>From the converged distribution of walkers, you make a probability distribution, P(x), using the weights of the walkers.</p>
-<p>You get the free energy landscape from the P(x) using Stats 101.</p>
-<video controls autoplay muted loop playsinline style="max-width: 100%; height: auto;">
-  <source src="../../../../../media/wemd_intro/15.mp4" type="video/mp4">
-</video>
-
-<hr />
-<p>Endnote:</p>
-<p>This was originally posted as <a href="https://x.com/poruthoor/status/1631815905557479426">an X (twitter) thread</a></p>
+    
+      <nav class="md-post__action">
+        <a href="../../2023/03/03/weighted-ensemble-approach/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+      
+        
+          
 
 
 
-
-
-
-
+<nav class="md-pagination">
   
-  
+</nav>
+        
+      
+    </div>
+  </div>
 
-
-
-  
-
-
-
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 9v12H1V9zm4 12a2 2 0 0 1-2-2V9c0-.55.22-1.05.59-1.41L14.17 1l1.06 1.06c.27.27.44.64.44 1.05l-.03.32L14.69 8H21a2 2 0 0 1 2 2v2c0 .26-.05.5-.14.73l-3.02 7.05C19.54 20.5 18.83 21 18 21zm0-2h9.03L21 12v-2h-8.79l1.13-5.32L9 9.03z"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 15V3h4v12zM15 3a2 2 0 0 1 2 2v10c0 .55-.22 1.05-.59 1.41L9.83 23l-1.06-1.06c-.27-.27-.44-.64-.44-1.06l.03-.31.95-4.57H3a2 2 0 0 1-2-2v-2c0-.26.05-.5.14-.73l3.02-7.05C4.46 3.5 5.17 3 6 3zm0 2H5.97L3 12v2h8.78l-1.13 5.32L15 14.97z"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-              
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
-
-
-                
-              </article>
-            </div>
-          
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -1010,6 +943,10 @@
           <form class="md-consent__form md-grid md-typeset" name="consent">
             
 
+  
+
+
+
 
 
   
@@ -1020,29 +957,20 @@
 <div class="md-consent__settings">
   <ul class="task-list">
     
-    
-    
       
-    
-    
       
         
-  
-  
-    
-    
+        
+          
+        
       
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
     
   </ul>
 </div>
@@ -1066,13 +994,10 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    
-      
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.prune", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
