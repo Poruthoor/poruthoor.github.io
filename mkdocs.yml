@@ -2,6 +2,7 @@ site_name: Ashlin James Poruthoor
 site_url: https://poruthoor.github.io/
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Montserrat
     code: Red Hat Mono
